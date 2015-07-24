@@ -1,6 +1,6 @@
 {
   "scripts" : {
-    "run-local","node ./lib/run-local.js"
+    "run-local":"node ./lib/run-local.js"
     "test" : "echo test",
     "unit" : "istanbul `[ $COVERAGE ] && echo 'cover _mocha' || echo 'test mocha'` -- test test/basic",
     "lint" : "eslint ./*.js",
