@@ -20,7 +20,7 @@ npm delete my-lambda1
 
 # path
 
-
+```text
   ./
   |-lambdas/ your lambda source codes.
   |-libs/    your libraries.
@@ -28,6 +28,7 @@ npm delete my-lambda1
   |-tests/ your test source codes.
   |-deploys/ deploy configurations.
   |-node_modules/
+```
 
 # references
 
