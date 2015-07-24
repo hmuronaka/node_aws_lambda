@@ -20,15 +20,16 @@ npm delete my-lambda1
 
 # path
 
-./
-|-lambdas/ your lambda source codes.
-|-libs/    your libraries.
-|-events/ input datas for run-local.
-|-tests/ your test source codes.
-|-deploys/ deploy configurations.
-|-node_modules/
+
+  ./
+  |-lambdas/ your lambda source codes.
+  |-libs/    your libraries.
+  |-events/ input datas for run-local.
+  |-tests/ your test source codes.
+  |-deploys/ deploy configurations.
+  |-node_modules/
 
 # references
 
-[AWS Lambdaの関数をnpmでパッケージ管理](http://qiita.com/imaifactory/items/ac81b4a3ff4a5f5dec85)
-[imaifactory/myFirstLambda](https://github.com/imaifactory/myFirstLambda/blob/master/package.json)
+- [AWS Lambdaの関数をnpmでパッケージ管理](http://qiita.com/imaifactory/items/ac81b4a3ff4a5f5dec85)
+- [imaifactory/myFirstLambda](https://github.com/imaifactory/myFirstLambda/blob/master/package.json)
