@@ -46,5 +46,29 @@ describe('make_path', function() {
     assert.equal(path.join(process.cwd(), 'events/myevent.json'),
         my_path.make_event_path('myevent.json'));
   });
+});
+
+describe('operate path', function() {
+  it('should remove .js from mylambda.js', function() {
+    assert.equal('mylambda',
+        my_path.remove_extension('mylambda.js'));
+  });
+
+  it('should "mylambda" when extension from mylambda', function() {
+    assert.equal('mylambda',
+        my_path.remove_extension('mylambda'));
+  });
+
+  it('should mylambda.json from mylambda.js', function() {
+    assert.equal('mylambda.json',
+        my_path.change_extension('mylambda.js', '.json'));
+  });
+
+  it('should mylambda.json from mylambda', function() {
+    assert.equal('mylambda',
+        my_path.change_extension('mylambda', '.json'));
+  });
+
+
 
 });
